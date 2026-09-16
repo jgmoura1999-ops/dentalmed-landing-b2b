@@ -1,0 +1,20 @@
+:root{
+/* Blue — anchor: trust, clinical professionalism */
+--blue-50:#F1F7FD;--blue-100:#DCEAF8;--blue-200:#B9D5F1;--blue-300:#7FB2E4;--blue-400:#3A8BDC;--blue-500:#1A6FC4;--blue-600:#0E5AA7;--blue-700:#0F3D6B;--blue-800:#0B2A4A;--blue-900:#081B30;
+/* Teal — support: health, wellbeing */
+--teal-50:#EFFBF7;--teal-100:#D6F4EC;--teal-200:#A8E8D9;--teal-300:#5FD2BA;--teal-400:#2FBFA4;--teal-500:#12A08A;--teal-600:#0E7C6B;--teal-700:#0A5B4F;
+/* Coral — action: CTAs only */
+--coral-50:#FFF2ED;--coral-100:#FFE3D8;--coral-200:#FFC3AC;--coral-300:#FF9470;--coral-400:#FF6B3D;--coral-500:#EE552B;--coral-600:#C2431C;
+/* Neutrals — white / light grey clinical ground */
+--neutral-0:#FFFFFF;--neutral-25:#FAFBFC;--neutral-50:#F4F7FA;--neutral-100:#E7EDF3;--neutral-200:#D3DCE6;--neutral-300:#B4C0CD;--neutral-400:#8A99A9;--neutral-500:#6B788A;--neutral-600:#4E5B6B;--neutral-700:#374253;--neutral-800:#22303F;--neutral-900:#0F1A26;
+/* Semantic status */
+--success:#12A08A;--success-bg:#EFFBF7;--warning:#E8B93A;--warning-bg:#FDF6E3;--danger:#D0342C;--danger-bg:#FDEEED;--info:#0E5AA7;--info-bg:#F1F7FD;
+/* --- Semantic aliases --- */
+--brand:var(--blue-600);--brand-deep:var(--blue-800);--brand-support:var(--teal-400);
+--text-strong:var(--blue-800);--text-body:var(--neutral-700);--text-muted:var(--neutral-500);--text-inverse:var(--neutral-0);--text-on-brand:var(--neutral-0);--text-link:var(--blue-600);--text-link-hover:var(--blue-700);
+--surface-page:var(--neutral-0);--surface-subtle:var(--neutral-50);--surface-card:var(--neutral-0);--surface-inverse:var(--blue-800);--surface-brand:var(--blue-600);--surface-brand-soft:var(--blue-50);--surface-support-soft:var(--teal-50);--surface-action-soft:var(--coral-50);
+--border-subtle:var(--neutral-100);--border-default:var(--neutral-200);--border-strong:var(--neutral-300);--border-brand:var(--blue-200);
+--action-primary:var(--coral-400);--action-primary-hover:var(--coral-500);--action-primary-active:var(--coral-600);--action-primary-text:var(--neutral-0);
+--action-secondary:var(--blue-600);--action-secondary-hover:var(--blue-700);--action-secondary-soft:var(--blue-50);
+--focus-ring:var(--blue-400);
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Landing B2B — captura de lead" description="Página de conversão Dental Med: hero com formulário, prova social, planos e CTA final." -->
+<helmet><script src="./ds-base.js"></script>
+<style>
+@font-face{font-family:"ABeeZee";src:url("uploads/ABeeZee-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"ABeeZee";src:url("uploads/ABeeZee-Italic.ttf") format("truetype");font-weight:400;font-style:italic;font-display:swap}
+:root:root:root{
+--blue-50:#EBF1F7;--blue-100:#D6E4F5;--blue-200:#ADC8EA;--blue-300:#6F9FDA;--blue-400:#2A7AD0;--blue-500:#0F68C9;--blue-600:#0056BF;--blue-700:#00459A;--blue-800:#003576;--blue-900:#002451;
+--teal-50:#F0F7F7;--teal-100:#DFEDED;--teal-200:#C4DEDE;--teal-300:#9BCBCD;--teal-400:#9BCBCD;--teal-500:#4E9092;--teal-600:#3A7476;--teal-700:#2C5A5C;
+--humanized-100:#E7EBFF;--humanized-300:#8A9EFF;--humanized-500:#6C82F0;
+--coral-50:#EBF1F7;--coral-100:#D6E4F5;--coral-200:#ADC8EA;--coral-300:#2A7AD0;--coral-400:#0056BF;--coral-500:#00459A;--coral-600:#003576;
+--neutral-50:#EBF1F7;--neutral-100:#DDE6EF;
+--surface-inverse:#0056BF;--surface-subtle:#EBF1F7;
+--action-primary:#0056BF;--action-primary-hover:#00459A;--action-primary-active:#003576;--surface-action-soft:#EBF1F7;--shadow-cta:0 10px 24px rgba(0,86,191,.28);
+--text-4xl:30px;
+--font-sans:"ABeeZee","Segoe UI",system-ui,sans-serif;--font-serif:"ABeeZee",Georgia,serif;--font-display:"ABeeZee","Segoe UI",system-ui,sans-serif;--font-body:"ABeeZee","Segoe UI",system-ui,sans-serif;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,button,input,select,label,span,div{font-family:"ABeeZee","Segoe UI",system-ui,sans-serif !important}
+*{font-synthesis:none}
+a{color:#0056BF}
+a:hover{color:#00459A}
+@media (max-width:1000px){
+[data-r="grid-4"],[data-r="grid-3"]{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+[data-r="2col"]{grid-template-columns:minmax(0,1fr) !important;gap:32px !important}
+[data-r="section"]{padding:64px 0 !important}
+h1{font-size:40px !important}
+h2{font-size:30px !important}
+header nav{display:none !important}
+}
+@media (max-width:640px){
+[data-r="grid-4"],[data-r="grid-3"],[data-r="grid-2"]{grid-template-columns:minmax(0,1fr) !important;gap:16px !important}
+[data-r="section"]{padding:44px 0 !important}
+[data-r="hero"]{padding:32px 0 40px !important}
+[data-r2="pad"]{padding-left:18px !important;padding-right:18px !important}
+[data-r="wide-img"]{aspect-ratio:3/2 !important}
+h1{font-size:30px !important;line-height:1.2 !important}
+h2{font-size:25px !important;line-height:1.25 !important}
+h3{font-size:18px !important}
+p{font-size:16px !important}
+header > div{height:64px !important}
+header img{height:32px !important}
+}
+</style></helmet>
+<div style="font-family:var(--font-body);color:var(--text-body)">
+
+<header style="position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border-subtle)">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px" data-r2="pad">
+<img src="assets/logo-dentalmed.png" alt="Dental Med — Planos Odontológicos" style="height:40px;width:auto;display:block">
+<nav style="display:flex;gap:26px;font-size:15px"><a href="#cobertura" style="color:var(--text-body);text-decoration:none">Cobertura</a><a href="#planos" style="color:var(--text-body);text-decoration:none">Planos</a><a href="#rede" style="color:var(--text-body);text-decoration:none">Rede</a><a href="#proposta" style="color:var(--text-body);text-decoration:none">Proposta</a></nav>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Button" variant="primary" size="sm" hint-size="170px,40px">Solicitar proposta</x-import>
+</div></header>
+
+<section style="background:linear-gradient(180deg,var(--blue-50) 0%,var(--neutral-0) 100%);padding:64px 0 48px" data-r="hero">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:center" data-r2="pad" data-r="2col">
+<div>
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:12px">Plano odontológico empresarial · RN</div>
+<h1 style="font-family:var(--font-display);font-size:56px;line-height:1.1;letter-spacing:-0.01em;color:var(--text-strong);margin:0">Saúde bucal como benefício. Sua equipe merece esse cuidado.</h1>
+<p style="font-size:18px;line-height:1.65;margin-top:20px;max-width:52ch">Operadora potiguar desde 2000, com quatro clínicas próprias, rede credenciada em 23 cidades do RN e urgência 24h. Planos empresariais a partir de R$ 25,00 por colaborador, sem taxa de adesão.</p>
+<div style="display:flex;gap:14px;margin-top:32px;flex-wrap:wrap">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Button" variant="primary" size="lg" icon-right="arrow-right" hint-size="220px,56px">Solicitar proposta</x-import>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Button" variant="outline" size="lg" hint-size="250px,56px">Falar com um especialista</x-import>
+</div>
+<div style="display:flex;gap:10px;margin-top:28px;flex-wrap:wrap;font-size:14px;color:var(--text-muted)">
+<span>Registro ANS nº 41.394-1</span><span>·</span><span>Proposta sem ônus para a empresa</span>
+</div>
+</div>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Card" elevation="xl" padding="{{ 28 }}" hint-size="100%,520px">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.LeadForm" title="Receba uma proposta sob medida" description="Quatro campos. Nosso time comercial retorna com os valores por vida." hint-size="100%,460px"></x-import>
+</x-import>
+</div>
+<div style="max-width:1200px;margin:48px auto 0;padding:0 24px" data-r2="pad">
+<img src="assets/01-hero-decisor.jpg" alt="Gestora e diretor avaliando a proposta empresarial" style="width:100%;aspect-ratio:24/7;object-fit:cover;object-position:center 30%;border-radius:16px;display:block" data-r="wide-img">
+</div>
+</section>
+
+<section style="background:var(--surface-inverse);padding:36px 0">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px" data-r2="pad" data-r="grid-4">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Stat" tone="inverse" value="25 anos" label="De atuação no RN" icon="award" hint-size="100%,90px"></x-import>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Stat" tone="inverse" value="25.000" label="Usuários atendidos" icon="users" hint-size="100%,90px"></x-import>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Stat" tone="inverse" value="100+" label="Empresas clientes" icon="building-2" hint-size="100%,90px"></x-import>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Stat" tone="inverse" value="206" label="Procedimentos cobertos" icon="stethoscope" hint-size="100%,90px"></x-import>
+</div></section>
+
+<section id="desafios" style="background:var(--neutral-0);padding:96px 0" data-r="section">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px" data-r2="pad">
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:12px">O que o RH enfrenta</div>
+<h2 style="font-family:var(--font-display);font-size:38px;letter-spacing:-0.01em;color:var(--text-strong);margin:0;max-width:24ch">Cinco situações que um plano odontológico ajuda a resolver</h2>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:40px;align-items:stretch" data-r="grid-3">
+<sc-for list="{{ dores }}" as="item" hint-placeholder-count="5">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Card" padding="{{ 28 }}" hint-size="100%,230px">
+<div style="width:44px;height:44px;border-radius:10px;background:var(--surface-support-soft);display:flex;align-items:center;justify-content:center;color:var(--teal-600);margin-bottom:16px">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Icon" name="{{ item.icon }}" size="{{ 22 }}" hint-size="22px,22px"></x-import>
+</div>
+<h3 style="font-family:var(--font-display);font-size:19px;color:var(--text-strong);margin:0 0 10px;line-height:1.3">{{ item.title }}</h3>
+<p style="font-size:15px;line-height:1.6;color:var(--text-muted);margin:0">{{ item.text }}</p>
+</x-import>
+</sc-for>
+<div style="background:var(--surface-inverse);border-radius:16px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+<p style="font-size:19px;line-height:1.5;color:#fff;margin:0">Sua empresa pode ajudar a mudar essa realidade oferecendo um plano odontológico acessível. Valorize sua equipe, fortaleça seus benefícios e torne sua empresa mais atrativa.</p>
+<div style="--action-primary:#FFFFFF;--action-primary-hover:#EBF1F7;--action-primary-active:#D6E4F5;--action-primary-text:#0056BF;--shadow-cta:0 10px 24px rgba(0,26,60,.35);display:flex">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Button" variant="primary" size="lg" icon-right="arrow-right" hint-size="100%,56px">Solicitar proposta</x-import>
+</div>
+</div>
+</div></div></section>
+
+<section id="quem-somos" style="background:var(--neutral-0);padding:96px 0" data-r="section">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:center" data-r2="pad" data-r="2col">
+<img src="assets/02-empresa-que-cuida.jpg" alt="Dentista em atendimento na clínica própria Dental Med" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;display:block">
+<div>
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:12px">Quem somos</div>
+<h2 style="font-family:var(--font-display);font-size:38px;letter-spacing:-0.01em;color:var(--text-strong);margin:0;max-width:24ch">Assistência odontológica genuinamente potiguar desde 2000</h2>
+<p style="font-size:17px;line-height:1.65;margin-top:18px;max-width:60ch">A Dental Med Center é referência no Rio Grande do Norte pela experiência e credibilidade. Hoje atende aproximadamente 25.000 usuários e mais de 100 empresas, com quatro clínicas próprias e rede credenciada criteriosamente selecionada.</p>
+<p style="font-size:17px;line-height:1.65;margin-top:14px;max-width:60ch">Equipamentos de última geração, material esterilizado em autoclave e especialistas em todos os setores da odontologia. Credenciada na ANS sob o registro nº 41.394-1.</p>
+<div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Tag" hint-size="auto,32px">4 clínicas próprias</x-import>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Tag" hint-size="auto,32px">23 cidades credenciadas</x-import>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Tag" hint-size="auto,32px">Unidade móvel</x-import>
+</div>
+</div></div></section>
+
+<section id="cobertura" style="background:var(--surface-subtle);padding:96px 0" data-r="section">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px" data-r2="pad">
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:12px">Cobertura</div>
+<h2 style="font-family:var(--font-display);font-size:38px;letter-spacing:-0.01em;color:var(--text-strong);margin:0;max-width:26ch">206 procedimentos, da prevenção ao tratamento de canal</h2>
+<div style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:48px;margin-top:40px;align-items:start" data-r="2col">
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px" data-r="grid-2">
+<sc-for list="{{ coberturas }}" as="item" hint-placeholder-count="8">
+<div style="background:#fff;border:1px solid var(--border-subtle);border-radius:10px;padding:18px 20px;display:flex;gap:12px;align-items:flex-start">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Icon" name="{{ item.icon }}" size="{{ 20 }}" hint-size="20px,20px"></x-import>
+<span style="font-size:15px;line-height:1.45">{{ item.label }}</span>
+</div>
+</sc-for>
+</div>
+<div>
+<img src="assets/04-experiencia-clinica.jpg" alt="Consultora e colaborador em conversa sobre o benefício" style="width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:16px;display:block">
+<p style="font-size:15px;line-height:1.6;color:var(--text-muted);margin-top:16px">Urgência e emergência 24 horas, todos os dias, na rede própria e credenciada.</p>
+</div>
+</div></div></section>
+
+<section id="vantagens" style="background:var(--neutral-0);padding:96px 0" data-r="section">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px" data-r2="pad">
+<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center" data-r="2col">
+<div>
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:12px">Vantagens para o colaborador</div>
+<h2 style="font-family:var(--font-display);font-size:38px;letter-spacing:-0.01em;color:var(--text-strong);margin:0;max-width:22ch">Um benefício que a equipe usa e reconhece</h2>
+<p style="font-size:17px;line-height:1.65;margin-top:18px;max-width:52ch">Sem cobrança de taxa de adesão. Além da cobertura odontológica, os pacientes Dental Med têm descontos exclusivos em redes parceiras.</p>
+</div>
+<img src="assets/03-beneficio-para-todos.jpg" alt="Colaboradores conversando em ambiente de trabalho" style="width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:16px;display:block">
+</div>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:40px" data-r="grid-3">
+<sc-for list="{{ vantagens }}" as="item" hint-placeholder-count="6">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Card" padding="{{ 28 }}" hint-size="100%,190px">
+<div style="width:44px;height:44px;border-radius:10px;background:var(--surface-support-soft);display:flex;align-items:center;justify-content:center;color:var(--teal-600);margin-bottom:16px">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Icon" name="{{ item.icon }}" size="{{ 22 }}" hint-size="22px,22px"></x-import>
+</div>
+<h3 style="font-family:var(--font-display);font-size:19px;color:var(--text-strong);margin:0 0 8px">{{ item.title }}</h3>
+<p style="font-size:15px;line-height:1.55;color:var(--text-muted);margin:0">{{ item.text }}</p>
+</x-import>
+</sc-for>
+</div>
+<div style="display:flex;gap:24px;flex-wrap:wrap;margin-top:24px;background:var(--surface-subtle);border-radius:16px;padding:22px 26px;align-items:center">
+<span style="font-size:15px;color:var(--text-strong)">Descontos exclusivos para os pacientes:</span>
+<span style="font-size:15px">Óticas Diniz — 15% em armações, óculos de sol e lentes</span>
+<span style="color:var(--border-strong)">·</span>
+<span style="font-size:15px">Drogasil — até 40% nas compras</span>
+</div>
+</div></section>
+
+<section id="planos" style="background:var(--surface-subtle);padding:96px 0" data-r="section">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px" data-r2="pad">
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:12px">Planos empresariais</div>
+<h2 style="font-family:var(--font-display);font-size:38px;letter-spacing:-0.01em;color:var(--text-strong);margin:0;max-width:22ch">Escolha a cobertura e receba o valor por vida</h2>
+<p style="font-size:17px;line-height:1.65;margin-top:16px;max-width:60ch">O valor final depende do número de vidas e da cobertura escolhida. A proposta é enviada fechada, com total transparência e sem ônus para a empresa.</p>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:40px;align-items:start" data-r="grid-3">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.PlanCard" name="Clínico Empresarial" price="R$ 25,00" unit="/vida/mês" features="{{ featClinico }}" description="A partir de R$ 25,00 por vida. Prevenção, urgência 24h e os 206 procedimentos." cta-label="Solicitar proposta" hint-size="100%,420px"></x-import>
+<div style="--surface-inverse:#003576;--action-primary:#FFFFFF;--action-primary-hover:#EBF1F7;--action-primary-active:#D6E4F5;--action-primary-text:#0056BF;--shadow-cta:0 10px 24px rgba(0,26,60,.35);display:flex;flex-direction:column">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.PlanCard" featured="{{ true }}" flag="Mais completo" name="Med Orto Empresarial" price="A definir" unit="" features="{{ featMedOrto }}" description="Valor por vida sob proposta. Cobertura clínica somada ao tratamento ortodôntico." cta-label="Solicitar proposta" hint-size="100%,420px"></x-import>
+</div>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.PlanCard" name="Ortodôntico" price="A definir" unit="" features="{{ featOrto }}" description="Valor por vida sob proposta. Aparelho tradicional ou estético, com valores diferenciados." cta-label="Falar com a gerência" hint-size="100%,420px"></x-import>
+</div>
+<p style="font-size:14px;color:var(--text-muted);margin-top:20px">Ortodôntico Plus: acréscimo de R$ 10,00 na mensalidade, com limpezas periódicas e clareamento ao término do tratamento.</p>
+</div></section>
+
+<section id="rede" style="background:var(--neutral-0);padding:96px 0" data-r="section">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px" data-r2="pad">
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:12px">Rede de atendimento</div>
+<h2 style="font-family:var(--font-display);font-size:38px;letter-spacing:-0.01em;color:var(--text-strong);margin:0;max-width:24ch">Quatro clínicas próprias e rede credenciada em 23 cidades</h2>
+<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:40px" data-r="grid-4">
+<sc-for list="{{ unidades }}" as="u" hint-placeholder-count="4">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Card" padding="{{ 28 }}" hint-size="100%,180px">
+<h3 style="font-family:var(--font-display);font-size:20px;color:var(--text-strong);margin:0 0 10px">{{ u.cidade }}</h3>
+<p style="font-size:15px;line-height:1.55;color:var(--text-muted);margin:0 0 10px">{{ u.endereco }}</p>
+<p style="font-size:15px;color:var(--brand);margin:0">{{ u.fone }}</p>
+</x-import>
+</sc-for>
+</div>
+<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;margin-top:48px;align-items:center" data-r="2col">
+<div>
+<h3 style="font-family:var(--font-display);font-size:26px;color:var(--text-strong);margin:0 0 14px">Unidade móvel</h3>
+<p style="font-size:17px;line-height:1.65;max-width:52ch">Além das clínicas próprias e da rede credenciada, a Dental Med dispõe de uma clínica totalmente móvel, que leva o atendimento até a sua empresa com comodidade e segurança.</p>
+<p style="font-size:15px;line-height:1.6;color:var(--text-muted);margin-top:18px">Cidades credenciadas: Alto do Rodrigues, Aréz, Assu, Carnaubais, Ceará-Mirim, Goianinha, Ipanguaçu, Jaçanã, João Câmara, Jundiá, Lajes, Macau, Macaíba, Natal, Parnamirim, Pendências, Santa Cruz, Serra Caiada, São Gonçalo do Amarante, São José do Mipibu, São José do Campestre, São Tomé, Tangará e Touros.</p>
+</div>
+<img src="assets/05-decisao-com-seguranca.jpg" alt="Gestora de RH sorrindo em seu escritório" style="width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:16px;display:block">
+</div>
+</div></section>
+
+<section id="proposta" style="background:var(--surface-inverse);padding:96px 0" data-r="section">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:56px;align-items:center" data-r2="pad" data-r="2col">
+<div>
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#EBF1F7;margin-bottom:12px">Solicite sua proposta</div>
+<h2 style="font-family:var(--font-display);font-size:46px;letter-spacing:-0.01em;color:#fff;margin:0">Motivos para sorrir na sua empresa</h2>
+<p style="font-size:18px;line-height:1.65;color:var(--blue-100);margin-top:18px;max-width:46ch">Diga quantas vidas sua empresa tem e nosso time comercial devolve uma proposta sob medida, com total transparência e sem ônus para o grupo.</p>
+<p style="font-size:16px;line-height:1.6;color:#fff;margin-top:24px">Comercial: (84) 98802-4098 · Ouvidoria: (84) 3133-3596</p>
+</div>
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.Card" elevation="xl" padding="{{ 28 }}" hint-size="100%,520px">
+<x-import component-from-global-scope="DentalMedDesignSystem_4377ff.LeadForm" title="Solicitar proposta" description="Quatro campos. Retorno do time comercial." hint-size="100%,460px"></x-import>
+</x-import>
+</div></section>
+
+<footer style="background:var(--neutral-0);padding:36px 0;border-top:1px solid var(--border-subtle)">
+<div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;justify-content:space-between" data-r2="pad">
+<img src="assets/logo-dentalmed.png" alt="Dental Med" style="height:32px;width:auto;display:block">
+<p style="font-size:14px;color:var(--text-muted);margin:0">Dental Med Center · Registro ANS nº 41.394-1 · ouvidoria@dentalmedcenter.com.br</p>
+</div></footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      dores: [
+        { icon: 'user-search', title: 'Dificuldade para atrair talentos', text: 'Empresário, está difícil contratar bons profissionais? Hoje, não é só salário que chama atenção. Benefícios também fazem a diferença na hora de escolher onde trabalhar.' },
+        { icon: 'user-minus', title: 'Perda de bons colaboradores', text: 'Você investe tempo treinando um funcionário e depois perde esse profissional. Um bom pacote de benefícios ajuda a valorizar sua equipe e pode contribuir para a retenção.' },
+        { icon: 'heart-handshake', title: 'Colaborador não se sente valorizado', text: 'Às vezes, um benefício de baixo custo para a empresa representa muito para quem trabalha nela. O colaborador percebe quando a empresa também cuida dele.' },
+        { icon: 'trending-down', title: 'Dor de dente também vira problema da empresa', text: 'Funcionário com dor de dente não consegue trabalhar da mesma maneira. Pode faltar, precisar sair para procurar atendimento e ter sua produtividade prejudicada.' },
+        { icon: 'hourglass', title: 'Dificuldade de acesso ao atendimento', text: 'Nem todo colaborador consegue pagar um tratamento particular. E dependendo exclusivamente da disponibilidade do atendimento público, ele pode enfrentar espera e dificuldade para conseguir determinados procedimentos.' }
+      ],
+      coberturas: [
+        { icon: 'siren', label: 'Urgência e emergência 24h' },
+        { icon: 'stethoscope', label: 'Consultas' },
+        { icon: 'sparkles', label: 'Limpeza, prevenção e aplicação de flúor' },
+        { icon: 'heart-pulse', label: 'Tratamento de gengiva (periodontia)' },
+        { icon: 'shield-check', label: 'Restaurações (dentística)' },
+        { icon: 'scissors', label: 'Cirurgia e extrações' },
+        { icon: 'activity', label: 'Tratamento de canal (endodontia)' },
+        { icon: 'scan', label: 'Radiografias e documentação' }
+      ],
+      vantagens: [
+        { icon: 'map-pin', title: 'Rede própria e credenciada', text: 'Atendimento nas quatro clínicas próprias e na rede credenciada em 23 cidades do RN.' },
+        { icon: 'microscope', title: 'Equipamentos sofisticados', text: 'Estrutura de última geração com profissionais especializados em todas as áreas.' },
+        { icon: 'shield-check', title: 'Biossegurança', text: 'Material odontológico de alta qualidade, esterilizado em autoclave.' },
+        { icon: 'wallet', title: 'Sem taxa de adesão', text: 'Preço acessível por vida e nenhuma cobrança de implantação para a empresa.' },
+        { icon: 'clock', title: 'Urgência 24 horas', text: 'Suporte em situações de emergência a qualquer hora, todos os dias.' },
+        { icon: 'truck', title: 'Unidade móvel', text: 'Clínica móvel para levar o atendimento até a sede da empresa.' }
+      ],
+      featClinico: ['206 procedimentos cobertos', 'Urgência 24h na rede própria e credenciada', 'Sem taxa de adesão', 'Gestão de vidas com o time comercial'],
+      featMedOrto: ['Cobertura clínica completa', 'Documentação e raio-x', 'Instalação e manutenção do aparelho', 'Aparelho tradicional ou estético'],
+      featOrto: ['Documentação e raio-x', 'Instalação do aparelho ortodôntico', 'Manutenção mensal', 'Mesmo valor para todas as faixas etárias'],
+      unidades: [
+        { cidade: 'Natal', endereco: 'Av. Rio Branco, 440 — Centro', fone: '(84) 3133-3566' },
+        { cidade: 'Parnamirim', endereco: 'Av. Bela Parnamirim, 14 — Vida Nova', fone: '(84) 3133-3560' },
+        { cidade: 'Goianinha', endereco: 'R. Dom Nivaldo Monte, 126 — Centro', fone: '(84) 3133-3579' },
+        { cidade: 'Santa Cruz', endereco: 'R. João Bianor Bezerra, 139 — Centro', fone: '(84) 3133-3574' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

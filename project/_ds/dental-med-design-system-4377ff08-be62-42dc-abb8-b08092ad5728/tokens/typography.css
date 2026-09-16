@@ -1,0 +1,9 @@
+:root{
+--text-2xs:11px;--text-xs:12px;--text-sm:14px;--text-md:16px;--text-lg:18px;--text-xl:20px;--text-2xl:24px;--text-3xl:30px;--text-4xl:38px;--text-5xl:48px;--text-6xl:60px;--text-7xl:72px;
+--leading-tight:1.08;--leading-snug:1.2;--leading-normal:1.5;--leading-relaxed:1.65;
+--weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;--weight-black:800;
+--tracking-tight:-0.025em;--tracking-snug:-0.012em;--tracking-normal:0;--tracking-wide:0.06em;--tracking-caps:0.1em;
+/* role aliases */
+--font-display:var(--font-sans);--font-body:var(--font-sans);--font-quote:var(--font-serif);
+--eyebrow-size:var(--text-xs);--eyebrow-tracking:var(--tracking-caps);--eyebrow-weight:var(--weight-bold);
+}
